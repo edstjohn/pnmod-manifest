@@ -4,24 +4,24 @@ The PureNexus Project - Layers
 Getting Started
 ---------------
 
-To build PureNexus from source, you'll need to be familiar with
+To build PureNexus MOD from source, you'll need to be familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureNexusProject/manifest.git -b mm
+	repo init -u https://github.com/ezio84/pnmod-manifest.git -b mm
 
 Then to sync source, use this command:
 
 	repo sync
 
-After syncing is done, use these commands to build:
+After syncing is done, use these commands to build (or the build script in the scripts folder):
 
     1.) . build/envsetup.sh
     2.) brunch xxxx yyyy
     
-    xxxx= device name aka shamu
+    xxxx= device name aka hammerhead
     yyyy= build type (user,userdebug,eng)*
 
     *if no build type is specified "userdebug" is default
