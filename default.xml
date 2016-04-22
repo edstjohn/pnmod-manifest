@@ -14,6 +14,8 @@
            sync-f="true"
            sync-j="4" />
 
+  <!-- Scripts to automate the building process and some backups -->
+  <project path="scripts" name="scripts" remote="pure" revision="mm" />
   <!-- Pure Repo's -->
   <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
