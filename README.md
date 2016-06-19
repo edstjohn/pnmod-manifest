@@ -10,7 +10,7 @@ To build PureNexus MOD from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/ezio84/pnmod-manifest.git -b mm
+	repo init -u https://github.com/ezio84/pnmod-manifest.git -b mm2
 
 Then to sync source, use this command:
 
@@ -20,7 +20,7 @@ After syncing is done, use these commands to build (or the build script in the s
 
     1.) . build/envsetup.sh
     2.) brunch xxxx yyyy
-    
+
     xxxx= device name aka hammerhead
     yyyy= build type (user,userdebug,eng)*
 
