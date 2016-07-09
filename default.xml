@@ -62,6 +62,7 @@
   <project path="system/extras" name="purenexus_system_extras" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/vold" name="purenexus_system_vold" groups="pdk" remote="pure" revision="mm2" />
   <project path="vendor/nexus" name="purenexus_vendor_nexus" remote="pure" revision="mm2" />
+  <project path="hardware/broadcom/wlan" name="purenexus_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="pure" revision="mm2" />
 
   <!-- Device Source -->
   <project path="device/huawei/angler" name="purenexus_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2" />
@@ -336,7 +337,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
