@@ -61,7 +61,7 @@
   <project path="system/core" name="purenexus_system_core" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/extras" name="purenexus_system_extras" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/vold" name="purenexus_system_vold" groups="pdk" remote="pure" revision="mm2" />
-  <project path="vendor/nexus" name="purenexus_vendor_nexus" remote="pure" revision="mm2" />
+  <project path="vendor/nexus" name="purenexus_vendor_nexus" remote="pure" revision="mm2oms" />
   <project path="hardware/broadcom/wlan" name="purenexus_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="pure" revision="mm2" />
   <project path="packages/apps/masquerade" name="oms_masquerade" remote="pure" revision="master" />
 
