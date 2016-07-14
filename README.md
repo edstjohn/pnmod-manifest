@@ -1,4 +1,4 @@
-The PureNexus Project - Layers
+The PureNexus Project - Substratum themes
 =====================
 
 Getting Started
@@ -10,7 +10,7 @@ To build PureNexus MOD from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/ezio84/pnmod-manifest.git -b mm2
+	repo init -u https://github.com/ezio84/pnmod-manifest.git -b mm2oms
 
 Then to sync source, use this command:
 
