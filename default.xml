@@ -49,7 +49,6 @@
   <project path="packages/apps/PackageInstaller" name="purenexus_packages_apps_PackageInstaller" groups="pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/PhoneCommon" name="purenexus_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/PureSettings" name="purenexus_packages_apps_PureSettings" remote="pure" revision="mm2oms" />
-  <!--<project path="packages/apps/PureTools" name="purenexus_packages_apps_PureTools" remote="pure" revision="mm2oms" /> -->
   <project path="packages/apps/Settings" name="purenexus_packages_apps_Settings" remote="pure" revision="mm2oms" />
   <project path="packages/apps/TvSettings" name="purenexus_packages_apps_TvSettings" groups="generic_fs" remote="pure" revision="mm2oms" />
   <project path="packages/inputmethods/LatinIME" name="purenexus_packages_inputmethods_LatinIME" remote="pure" revision="mm2oms" />
