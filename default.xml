@@ -20,7 +20,7 @@
   <project path="build" name="purenexus_build" groups="pdk" remote="pure" revision="mm2oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="pure" revision="mm2oms" />
+  <project path="manifest" name="pnmod-manifest" remote="pure" revision="mm2oms" />
   <project path="art" name="purenexus_art" groups="pdk" remote="pure" revision="mm2oms" />
   <project path="external/busybox" name="purenexus_external_busybox" remote="pure" revision="mm2oms" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="pure" revision="mm2oms" />
