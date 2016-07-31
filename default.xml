@@ -38,6 +38,7 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="pure" revision="mm2oms" />
   <project path="frameworks/opt/telephony" name="purenexus_frameworks_opt_telephony" groups="pdk" remote="pure" revision="mm2oms" />
   <project path="hardware/marvell/wlan" name="purenexus_hardware_marvell_wlan" remote="pure" revision="mm2oms" />
+  <project path="packages/apps/Bluetooth" name="purenexus_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/CellBroadcastReceiver" name="purenexus_packages_apps_CellBroadcastReceiver" remote="pure" revision="mm2oms" />
   <project path="packages/apps/Contacts" name="purenexus_packages_apps_Contacts" groups="pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/ContactsCommon" name="purenexus_packages_apps_ContactsCommon" groups="pdk-fs" remote="pure" revision="mm2oms" />
@@ -382,7 +383,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
