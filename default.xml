@@ -7,7 +7,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote name="pure"
-           fetch="https://github.com/ezio84/" /> 
+           fetch="https://github.com/ezio84/" />
+  <remote name="substratum"
+           fetch="https://github.com/TeamSubstratum/" />
   <default revision="refs/tags/android-6.0.1_r54"
            remote="aosp"
            sync-c="true"
@@ -46,6 +48,7 @@
   <project path="packages/apps/ExactCalculator" name="purenexus_packages_apps_ExactCalculator" groups="pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/InCallUI" name="purenexus_packages_apps_InCallUI" remote="pure" revision="mm2oms" />
   <project path="packages/apps/Launcher3" name="purenexus_packages_apps_Launcher3" remote="pure" revision="mm2oms" />
+  <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="master" />
   <project path="packages/apps/MusicFX" name="purenexus_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="mm2oms"  />
   <project path="packages/apps/PackageInstaller" name="purenexus_packages_apps_PackageInstaller" groups="pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/PhoneCommon" name="purenexus_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2oms" />
@@ -63,7 +66,6 @@
   <project path="system/vold" name="purenexus_system_vold" groups="pdk" remote="pure" revision="mm2oms" />
   <project path="vendor/nexus" name="purenexus_vendor_nexus" remote="pure" revision="mm2oms" />
   <project path="hardware/broadcom/wlan" name="purenexus_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="pure" revision="mm2oms" />
-  <project path="packages/apps/masquerade" name="oms_masquerade" remote="pure" revision="master" />
   <project path="system/bt" name="purenexus_system_bt" remote="pure" revision="mm2oms" groups="pdk" />
 
   <!-- Device Source -->
