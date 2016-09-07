@@ -77,7 +77,7 @@
   <project path="kernel/lge/hammerhead" name="purenexus_kernel_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms" />
 
   <!-- Proprietary Vendors -->
-  <project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2oms" />
+  <project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2oms-alt" />
   <project path="vendor/lge" name="purenexus_proprietary_vendor_lge" remote="pure" revision="mm2oms" />
 
   <!-- AOSP Repo's -->
