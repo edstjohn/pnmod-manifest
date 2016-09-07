@@ -69,7 +69,7 @@
   <project path="system/bt" name="purenexus_system_bt" remote="pure" revision="mm2oms" groups="pdk" />
 
   <!-- Device Source -->
-  <project path="device/huawei/angler" name="purenexus_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms" />
+  <project path="device/huawei/angler" name="purenexus_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms-alt" />
   <project path="device/lge/hammerhead" name="purenexus_device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms" />
 
   <!-- Kernel Source -->
