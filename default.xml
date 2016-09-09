@@ -70,7 +70,7 @@
 
   <!-- Device Source -->
   <project path="device/huawei/angler" name="purenexus_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms-alt" />
-  <project path="device/lge/hammerhead" name="purenexus_device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms" />
+  <project path="device/lge/hammerhead" name="purenexus_device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms-alt" />
 
   <!-- Kernel Source -->
   <project path="kernel/huawei/angler" name="purenexus_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms" />
@@ -78,7 +78,7 @@
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2oms-alt" />
-  <project path="vendor/lge" name="purenexus_proprietary_vendor_lge" remote="pure" revision="mm2oms" />
+  <project path="vendor/lge" name="purenexus_proprietary_vendor_lge" remote="pure" revision="mm2oms-alt" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
